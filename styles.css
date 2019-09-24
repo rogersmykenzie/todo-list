@@ -1,0 +1,18 @@
+main.main-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list-interface {
+    display: flex;
+}
+.list-item {
+    display: flex;
+}
+.list-item > button {
+    margin-left: 20px;
+}
+ul li:nth-child(2) {
+    color: green;
+}
